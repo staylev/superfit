@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.superfit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SuperFit">
+        <activity
+            android:name=".scroll"
+            android:label="@string/title_activity_scroll"
+            android:theme="@style/Theme.SuperFit.NoActionBar"></activity>
+        <activity android:name=".Exercises" />
+        <activity android:name=".pasword" />
+        <activity android:name=".running_screen" />
+        <activity android:name=".push_up_scree" />
+        <activity android:name=".plank_SCREEN" />
+        <activity android:name=".Squats_screen" />
+        <activity android:name=".Crunch_screnn" />
+        <activity android:name=".Registration" />
+        <activity android:name=".recepptLIst" />
+        <activity android:name=".login" />
+        <activity android:name=".splashScren">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

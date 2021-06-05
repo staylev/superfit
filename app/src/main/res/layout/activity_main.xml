@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="443dp"
+        android:layout_height="199dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_1" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="416dp"
+        android:layout_height="604dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/r1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="343dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="344dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="108dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:text="My body"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="149dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:srcCompat="@drawable/image_2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:text="178 cm"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:lineHeight="17dp"
+        android:text="76 kg"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:srcCompat="@drawable/vector__3_1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/vector__4_1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="26dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/vector__2_"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="84dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="Details"
+
+        android:textAllCaps="false"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:backgroundTint="#00FFFFFF"
+        app:iconTint="#00FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="176dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Last exercises"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView40"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="See all"
+        android:onClick="onClick3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="351dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="284dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:lineHeight="78dp"
+        android:text="SuperFit"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="112dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:text="The plank strengthens the abdominals, back and shoulders. "
+        android:textColor="#C6C6C6"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView50"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/plank"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/view10" />
+
+    <Button
+        android:id="@+id/recept"
+        android:layout_width="139dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="#00FFFFFF"
+        android:gravity="left"
+        android:onClick="onClick"
+        android:text="@string/recipes"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view10"
+        tools:ignore="MissingConstraints,RtlHardcoded,UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="159dp"
+        android:layout_height="53dp"
+        android:background="#00FFFFFF"
+        android:onClick="onClick2"
+        android:text="Sign Out"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recept"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="158dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/image_2__1_" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:text="Push-Ups"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="214dp"
+        android:layout_marginLeft="214dp"
+        android:layout_marginTop="4dp"
+        android:text="Push-ups exercise the pectoral muscles, triceps, and anterior deltoids."
+        android:textColor="#C6C6C6"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="@+id/view1"
+        app:layout_constraintTop_toBottomOf="@+id/textView47"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="168dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view10"
+        app:layout_constraintStart_toStartOf="@+id/view10"
+        app:layout_constraintTop_toTopOf="@+id/view10"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/image_2__2_" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/recept"
+        app:layout_constraintTop_toTopOf="@+id/recept"
+        app:srcCompat="@drawable/vector"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        app:layout_constraintEnd_toEndOf="@+id/button19"
+        app:layout_constraintTop_toTopOf="@+id/button19"
+        app:srcCompat="@drawable/vector__1_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

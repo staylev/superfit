@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercises">
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="487dp"
+        android:layout_height="206dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="284dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:lineHeight="78dp"
+        android:text="SuperFit"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="394dp"
+        android:layout_height="992dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/r1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView23" />
+
+    <View
+        android:id="@+id/view24"
+        android:layout_width="343dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view23"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:text="Running"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView32"
+        app:layout_constraintTop_toTopOf="@+id/view24" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:text="It develops endurance, strengthens the legs and the cardiovascular system."
+        android:textColor="#C6C6C6"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView32"
+        app:layout_constraintTop_toBottomOf="@+id/textView62"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="161dp"
+        android:layout_height="113dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view24"
+        app:layout_constraintStart_toStartOf="@+id/view24"
+        app:layout_constraintTop_toTopOf="@+id/view24"
+        app:srcCompat="@drawable/image_2__3_" />
+
+    <View
+        android:id="@+id/view23"
+        android:layout_width="343dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/view12"
+        app:layout_constraintTop_toBottomOf="@+id/view22"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="171dp"
+        android:layout_height="119dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/view23"
+        app:layout_constraintStart_toStartOf="@+id/view23"
+        app:layout_constraintTop_toTopOf="@+id/view23"
+        app:layout_constraintVertical_bias="0.571"
+        app:srcCompat="@drawable/image_2__6_" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="It involves the entire abs, but primarily it works the rectus abdominis muscle."
+        android:textColor="#C6C6C6"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/view23"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/imageView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView60"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Crunch "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view23"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toEndOf="@+id/imageView31"
+        app:layout_constraintTop_toTopOf="@+id/view23" />
+
+    <View
+        android:id="@+id/view22"
+        android:layout_width="343dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view19"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Сonsidered a vital exercise for increasing the strength and size of the lower body."
+        android:textColor="#C6C6C6"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view22"
+        app:layout_constraintStart_toEndOf="@+id/imageView34"
+        app:layout_constraintTop_toBottomOf="@+id/textView58"
+        app:layout_constraintVertical_bias="0.071"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:text="Squats"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView34"
+        app:layout_constraintTop_toTopOf="@+id/view22" />
+
+    <View
+        android:id="@+id/view21"
+        android:layout_width="343dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="84dp"
+        android:text="Push-Ups"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/view12" />
+
+    <View
+        android:id="@+id/view19"
+        android:layout_width="343dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view21"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="161dp"
+        android:layout_height="113dp"
+        app:layout_constraintStart_toStartOf="@+id/view21"
+        app:layout_constraintTop_toTopOf="@+id/view21"
+        app:srcCompat="@drawable/image_2__1_" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:text="The plank strengthens the abdominals, back and shoulders. "
+        android:textColor="#C6C6C6"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/view19"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView54"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Push-ups exercise the pectoral muscles, triceps, and anterior deltoids."
+        android:textColor="#C6C6C6"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view21"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView56"
+        app:layout_constraintVertical_bias="0.347"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:text="Plank"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView33"
+        app:layout_constraintTop_toTopOf="@+id/view19" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="108dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Exercises"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view12"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="163dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view19"
+        app:layout_constraintStart_toStartOf="@+id/view19"
+        app:layout_constraintTop_toTopOf="@+id/view19"
+        app:srcCompat="@drawable/image_2__2_" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="164dp"
+        android:layout_height="113dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view22"
+        app:layout_constraintStart_toStartOf="@+id/view22"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/image_2__5_" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="48dp"
+        android:onClick="onClick2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView23"
+        app:srcCompat="@drawable/arrow_back" />
+</androidx.constraintlayout.widget.ConstraintLayout>
